@@ -1,9 +1,9 @@
-import AppRouter from './routes/router';
-import "bootstrap/dist/css/bootstrap.min.css";
-function App(){
-    return (
-        <AppRouter />
-    )
-}
+import MainLayout from "./pages/MainLayout";
 
-export default App;
+export default function App() {
+  return (
+    <>
+      <MainLayout />
+    </>
+  )
+}
